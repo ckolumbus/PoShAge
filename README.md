@@ -1,7 +1,17 @@
-# HowTo use age
+# README PoShAge
+
+## About this module
+
+A simple module that helps to use `age` with `powershell`.
+
+## HowTo use age
+
+Some examples on how to use age directly on the command line
 
 !! Need to use `cmd /c` because powershell pipelining is broken,
 it messes up the output piped into the `age -p` command
+
+Or `--armor` can be used to wrap the encrypted data into a PEM format
 
 ## generate and encrypt at once
 
